@@ -64,4 +64,4 @@ if __name__ == "__main__":
         raw_data = load_and_validate_data(DATA_PATH)
 
     except Exception as e:
-        print(f"Ingestion lifecycle termination: {str(e)}")
+        print(f"Ingestion lifecycle terminations: {str(e)}")
